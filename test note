@@ -1,0 +1,7 @@
+
+Note1: Jasmine test with translate:
+
+
+
+spyon("$translate")
+

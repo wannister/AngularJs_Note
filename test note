@@ -5,3 +5,9 @@ Note1: Jasmine test with translate:
 
 spyon("$translate")
 
+
+Note2: two time period overlap
+
+overlap(time1, time2){
+  return time1.from <= time2.to && time1.to >= time2.from
+}
